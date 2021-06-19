@@ -3,6 +3,9 @@ const config = {
     preload: {
       enabled: false
     },
+    EXPERIMENTAL: {
+      pubsub: true
+    },
     config: {
       Addresses: {
         Swarm: [
